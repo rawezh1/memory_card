@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react';
 
 const CardContainer = (props) => {
-  console.log(props);
   const createCards = () => {
     return props.cards.map((card,index) => {
       return (
         <div key={index}>
-          <p>{card.name}</p>
+          <p onClick={props.clickHandler}>{card.name}</p>
         </div>
       );
     });
