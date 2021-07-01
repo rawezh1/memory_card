@@ -1,15 +1,16 @@
-import React, { useState, useEffect } from "react";
-
+import React, { useState, useEffect } from 'react';
 
 const ScoreBar = (props) => {
-
-
-    return (
-        <div>
-            <p>{props.currentScore}</p>
-            <p>{props.bestScore}</p>
-        </div>
-    );
-}
+  return (
+    <div>
+      <div>
+        <p>{props.currentScore}</p>
+      </div>
+      <div>
+        <p>{props.bestScore}</p>
+      </div>
+    </div>
+  );
+};
 
 export default ScoreBar;

@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 
-const cardContainer = (props) => {
+const CardContainer = (props) => {
   console.log(props);
   const createCards = () => {
-    return props.cards.map((card) => {
+    return props.cards.map((card,index) => {
       return (
-        <div>
+        <div key={index}>
           <p>{card.name}</p>
         </div>
       );
@@ -14,4 +14,4 @@ const cardContainer = (props) => {
   return <div>{createCards()}</div>;
 };
 
-export default cardContainer;
+export default CardContainer;
