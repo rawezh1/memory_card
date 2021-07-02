@@ -1,0 +1,8 @@
+#TitleContainer {
+    background-color:black;
+    height:200px;
+}
+#Logo {
+    max-height: 100%;
+    width:50%;
+}

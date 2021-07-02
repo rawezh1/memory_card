@@ -2,6 +2,7 @@ import './App.css';
 import React, { useState, useEffect } from 'react';
 import ScoreBar from './components/score-bar';
 import CardContainer from './components/card-container';
+import Title from './components/title';
 
 function App() {
   const [score, setScore] = useState(0);
@@ -50,6 +51,7 @@ function App() {
 
   return (
     <div className='App'>
+      <Title />
       <ScoreBar currentScore={score} bestScore={bestScore} />
       <CardContainer cards={cards} clickHandler={clickHandler} />
     </div>
