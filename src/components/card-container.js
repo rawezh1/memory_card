@@ -6,6 +6,7 @@ const CardContainer = (props) => {
       return (
         <div key={index}>
           <p onClick={props.clickHandler}>{card.name}</p>
+          
         </div>
       );
     });

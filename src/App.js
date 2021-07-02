@@ -50,7 +50,7 @@ function App() {
   }
 
   return (
-    <div className='App'>
+    <div className='App' style={{margin:0,padding:0}}>
       <Title />
       <ScoreBar currentScore={score} bestScore={bestScore} />
       <CardContainer cards={cards} clickHandler={clickHandler} />

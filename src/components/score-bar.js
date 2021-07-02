@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react';
+import './scoreBar.css'
 
 const ScoreBar = (props) => {
   return (
-    <div>
-      <div>
-        <p>{props.currentScore}</p>
+    <div id='ScoreBar'>
+      <div id='Score'>
+        <p>Score: {props.currentScore}</p>
       </div>
-      <div>
-        <p>{props.bestScore}</p>
+      <div id='BestScore'>
+        <p>Best Score: {props.bestScore}</p>
       </div>
     </div>
   );

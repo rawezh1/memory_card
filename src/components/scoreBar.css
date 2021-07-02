@@ -1,0 +1,27 @@
+#ScoreBar {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: #36454f;
+  
+}
+#Score {
+    margin-right:25%;
+    width: 10%;
+    height:85%;
+    border: solid #364f40;
+    background-color: #3b364f;
+    color: wheat;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.603) 1px 1px;
+}
+#BestScore {
+    width: 10%;
+    height:85%;
+    border: solid #364f40;
+    background-color: #3b364f;
+    color: wheat;
+    color: wheat;
+    border-radius: 10px;
+}
