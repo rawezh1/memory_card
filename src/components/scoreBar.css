@@ -4,24 +4,28 @@
   display: flex;
   justify-content: center;
   background-color: #36454f;
+  padding-top:1px;
   
 }
 #Score {
     margin-right:25%;
     width: 10%;
-    height:85%;
+    height:75%;
     border: solid #364f40;
     background-color: #3b364f;
     color: wheat;
     border-radius: 10px;
-    box-shadow: rgba(255, 255, 255, 0.603) 1px 1px;
+    box-shadow: #03fad19a 1px 1px 10px;
+    padding-bottom: 5px;
 }
 #BestScore {
     width: 10%;
-    height:85%;
+    height:75%;
     border: solid #364f40;
     background-color: #3b364f;
     color: wheat;
     color: wheat;
     border-radius: 10px;
+    box-shadow: #03fad19a 1px 1px 10px;
+    padding-bottom: 5px;
 }
