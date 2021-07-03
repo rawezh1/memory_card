@@ -1,0 +1,14 @@
+#CardContainer {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: beige;
+}
+.card-image {
+    height: 80%;
+    width: 60%;
+    transition: all .2s ease-in-out;
+    margin-top: 10px;
+}
+.card-image:hover {
+    transform: scale(1.1);
+}
