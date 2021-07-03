@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import logo from './Solarium.png'
 import './title.css'
 
+// Cretae title bar with a logo inside of a div
 const Title = () => {
     
     return <div id='TitleContainer'>
