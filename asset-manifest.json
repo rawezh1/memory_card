@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/memory_card/static/css/main.82b6ddad.chunk.css",
+    "main.js": "/memory_card/static/js/main.5b6541a6.chunk.js",
+    "main.js.map": "/memory_card/static/js/main.5b6541a6.chunk.js.map",
+    "runtime-main.js": "/memory_card/static/js/runtime-main.0a6192aa.js",
+    "runtime-main.js.map": "/memory_card/static/js/runtime-main.0a6192aa.js.map",
+    "static/js/2.4df117bf.chunk.js": "/memory_card/static/js/2.4df117bf.chunk.js",
+    "static/js/2.4df117bf.chunk.js.map": "/memory_card/static/js/2.4df117bf.chunk.js.map",
+    "static/js/3.75d8b61c.chunk.js": "/memory_card/static/js/3.75d8b61c.chunk.js",
+    "static/js/3.75d8b61c.chunk.js.map": "/memory_card/static/js/3.75d8b61c.chunk.js.map",
+    "index.html": "/memory_card/index.html",
+    "static/css/main.82b6ddad.chunk.css.map": "/memory_card/static/css/main.82b6ddad.chunk.css.map",
+    "static/js/2.4df117bf.chunk.js.LICENSE.txt": "/memory_card/static/js/2.4df117bf.chunk.js.LICENSE.txt",
+    "static/media/Earth.d04d2004.png": "/memory_card/static/media/Earth.d04d2004.png",
+    "static/media/Jupiter.1263c87c.png": "/memory_card/static/media/Jupiter.1263c87c.png",
+    "static/media/Mars.22a6594c.png": "/memory_card/static/media/Mars.22a6594c.png",
+    "static/media/Mercury.c32c6d4c.png": "/memory_card/static/media/Mercury.c32c6d4c.png",
+    "static/media/Saturn.0e49e8c3.png": "/memory_card/static/media/Saturn.0e49e8c3.png",
+    "static/media/Solarium.a59d43ef.png": "/memory_card/static/media/Solarium.a59d43ef.png",
+    "static/media/Venus.008b3c41.png": "/memory_card/static/media/Venus.008b3c41.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a6192aa.js",
+    "static/js/2.4df117bf.chunk.js",
+    "static/css/main.82b6ddad.chunk.css",
+    "static/js/main.5b6541a6.chunk.js"
+  ]
+}
